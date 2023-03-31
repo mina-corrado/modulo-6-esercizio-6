@@ -1,0 +1,23 @@
+Strive Blog API
+
+Dobbiamo aggiungere la Token Based Authentication al progetto Strive Blog.
+
+Backend
+
+– Aggiungi la Token Based Authentication al tuo progetto precedente
+– POST /authors deve creare un nuovo utente valido
+– /login deve restituire un token di accesso
+– Aggiungi l’autenticazione agli endpoint, rendendo accessibili solo ad utenti registrati
+– Aggiungi le rotte /me
+– Permetti solo agli amministratori di effettuare operazioni di CRUD sugli authors
+
+Frontend
+
+– Crea le pagine di registrazione&login per il progetto
+– Dopo un login effettuato con successo, memorizza il token di accesso nel localStorage e redireziona l’utente alla homepage
+– Usa il token ovunque sia necessario
+
+EXTRA
+
+– Solo gli autori dei blog posts dovrebbero poter modificare ed eliminare i propri posts
+– Solo gli autori dei commenti dovrebbero poter modificare ed eliminare i propri commenti
